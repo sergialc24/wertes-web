@@ -1,0 +1,134 @@
+.size {
+   
+display: flex;
+height: 60px;
+width: 100%;
+position: fixed;
+}
+
+.flags {
+   width: 2vw;
+}
+
+.titol {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url("IMGP4778.jpg");
+   background-size: cover;
+   height: 100vh;
+  
+}
+
+.item {
+   justify-content: flex-end;
+}
+
+.subtitol {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 30vw;
+   
+}
+
+.emfasi {
+   font-family: "Arial";
+   font-style: normal;
+   font-size: 1.5rem;
+   color: rgb(3, 3, 104);
+}
+.execsearch {
+   background-image: url("DSCF8995.jpg");
+   background-size: cover;
+
+}
+.coaching {
+   background-image: url("DSCF8840.jpg");
+   background-size: cover;
+}
+.wertes {
+   background-image: url("IMGP7990.jpg");
+   background-size: cover;
+}
+
+.sections {
+   margin-bottom: 10px;
+}
+
+.subtitol p {
+   color: white;
+   font-family: "Arial";
+   font-style: normal;
+   font-weight: 800;
+   font-size: 4rem;
+}
+
+.titol p {
+   font-family: "Arial";
+   font-style: normal;
+   font-weight: 800;
+   color: white;
+   font-size: 5rem;
+}
+
+.ample {
+   width: 35vw;
+}
+
+.row2 {
+   background-color:rgb(223, 223, 223) ;
+}
+
+.informacio {
+   display: flex;
+}
+
+.pos {
+   justify-content: space-around;
+}
+.cos1 {
+   color: rgb(3, 3, 104);
+   font-family: "Arial";
+   font-size: 2rem;
+}
+li a:hover {
+   color: white !important;
+}
+
+
+.fot {
+   display: flex;
+   height: 30px;
+   background-color: black;
+   color: white;
+   justify-content: space-around;
+}
+
+@media (max-width: 1000px) {
+   .titol p {
+      font-size: 7vw;
+   }
+   .flags {
+      width: 3vw;
+   }
+   .emfasi {
+      font-size: 5vw;
+   }
+   .subtitol p {
+      font-size: 7vw;
+   }
+   .cos p {
+      font-size: 4vw;
+   }
+   .cos1 {
+      font-size: 6vw;
+   }
+   footer {
+       font-size: 2vw;
+   }
+  
+}
+
+
+
