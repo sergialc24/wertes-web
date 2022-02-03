@@ -33,10 +33,12 @@ position: fixed;
 }
 
 .emfasi {
+   color: rgb(3, 3, 104);
    font-family: "Arial";
    font-style: normal;
+   font-weight: 600;
    font-size: 1.5rem;
-   color: rgb(3, 3, 104);
+   
 }
 .execsearch {
    background-image: url("DSCF8995.jpg");
@@ -69,6 +71,7 @@ position: fixed;
    font-style: normal;
    font-weight: 800;
    color: white;
+   text-align: center;
    font-size: 5rem;
 }
 
@@ -83,9 +86,12 @@ position: fixed;
 .informacio {
    display: flex;
 }
-
+.cont {
+   justify-content: center;
+   text-align: center;
+}
 .pos {
-   justify-content: space-around;
+   justify-content: flex-start;
 }
 .cos1 {
    color: rgb(3, 3, 104);
@@ -97,6 +103,7 @@ li a:hover {
 }
 
 
+
 .fot {
    display: flex;
    height: 30px;
@@ -105,10 +112,21 @@ li a:hover {
    justify-content: space-around;
 }
 
-@media (max-width: 1000px) {
+.contact {
+   background-image: url("IMGP4731.jpg");
+   background-size: cover;
+}
+
+
+
+
+@media (max-width: 600px) {
+   
+  
    .titol p {
       font-size: 7vw;
    }
+   
    .flags {
       width: 3vw;
    }
@@ -119,9 +137,9 @@ li a:hover {
       font-size: 7vw;
    }
    .cos p {
-      font-size: 4vw;
+      font-size: 3vw;
    }
-   .cos1 {
+   .cos1 p {
       font-size: 6vw;
    }
    footer {
@@ -129,6 +147,8 @@ li a:hover {
    }
   
 }
+
+
 
 
 
