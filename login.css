@@ -1,0 +1,33 @@
+.bar {
+    height: 60px;
+    justify-content: center !important;
+}
+
+.imatge {
+    height: 60px;
+}
+.colo {
+    color: white;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    
+}
+.danger {
+    
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: calc(100vh - 60px) ;
+    background-image: url("DSCF8870.JPG");
+    background-size: cover;
+    color: white;
+}
