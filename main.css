@@ -115,7 +115,7 @@ li a:hover {
 
 .cont {
    justify-content: center;
-   text-align: center;
+   text-align: center !important;
 }
 
 .pos {
@@ -126,6 +126,7 @@ li a:hover {
    color: rgb(3, 3, 104);
    font-family: "Arial";
    font-size: 2rem;
+   text-align: justify;
 }
 
 .contact {
@@ -140,8 +141,9 @@ li a:hover {
    color: white;
    justify-content: space-around;
 }
-
-
+p {
+   text-align: justify;
+}
 @media (max-width: 600px) {
    
    .titol p {
@@ -149,7 +151,7 @@ li a:hover {
    }
    
    .flags {
-      width: 3vw;
+      width: 4vw;
    }
    .emfasi {
       font-size: 5vw;
@@ -178,6 +180,13 @@ li a:hover {
       color: black !important;
    }
 }
+
+@media (max-width: 400px) {
+   .flags {
+      width: 5vw;
+   }
+}
+
 
 
 
